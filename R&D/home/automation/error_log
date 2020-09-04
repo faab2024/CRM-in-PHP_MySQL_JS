@@ -1,0 +1,13 @@
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bnsznyem/public_html/crm/home/automation/emailing.php:2) in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 6
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  implode(): Invalid arguments passed in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 25
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  mail(): headers parameter must be string or array in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 30
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include(nav4.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/home/automation/nav.php on line 297
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include(nav4.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/home/automation/nav.php on line 297
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include(): Failed opening 'nav4.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/home/automation/nav.php on line 297
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include_once(connection.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 54
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include_once(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 54
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 56
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 57
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 95
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 95
+[07-Nov-2019 10:49:50 Asia/Calcutta] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/home/automation/emailing.php on line 95

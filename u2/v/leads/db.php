@@ -1,0 +1,1 @@
+<?php $conn = new PDO('mysql:host=localhost; dbname=bnsznyem_rgu','bnsznyem_abfa','!@#123qweasdzxc'); ?>

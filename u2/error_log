@@ -1,0 +1,18 @@
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(../c/sign.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 1
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(../c/sign.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 1
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(): Failed opening '../c/sign.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/u2/index.php on line 1
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(../c/register.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 2
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(../c/register.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 2
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(): Failed opening '../c/register.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/u2/index.php on line 2
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(style.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/header.php on line 9
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(style.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/header.php on line 9
+[12-Nov-2019 09:56:03 Asia/Kolkata] PHP Warning:  include(): Failed opening 'style.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/u2/header.php on line 9
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(../c/sign.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 1
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(../c/sign.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 1
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(): Failed opening '../c/sign.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/u2/index.php on line 1
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(../c/register.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 2
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(../c/register.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/index.php on line 2
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(): Failed opening '../c/register.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/u2/index.php on line 2
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(style.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/header.php on line 9
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(style.php): failed to open stream: No such file or directory in /home/bnsznyem/public_html/crm/u2/header.php on line 9
+[12-Nov-2019 17:37:27 Asia/Kolkata] PHP Warning:  include(): Failed opening 'style.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bnsznyem/public_html/crm/u2/header.php on line 9

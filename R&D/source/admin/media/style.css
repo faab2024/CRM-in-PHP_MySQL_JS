@@ -1,0 +1,33 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+/* typography */
+body{font:13px/1.5 Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif}a:focus{outline:1px dotted invert}hr{border:0 #ccc solid;border-top-width:1px;clear:both;height:0}h1{font-size:25px}h2{font-size:23px}h3{font-size:21px}h4{font-size:19px}h5{font-size:17px}h6{font-size:15px}ol{list-style:decimal}ul{list-style:square}li{margin-left:30px}p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin:10px 0;}
+
+#header {width:85%; margin: 0 auto;}
+#header h1 a {text-decoration:none; color:#000;}
+#container {width:85%; margin:5px auto; background:#111; color:#fff; padding:10px;}
+
+body.mini #header {width:30%; text-align:center;}
+body.mini #container {width:30%;}
+/* tabs */
+#nav {margin: 0 auto 2px; padding:10px; width:85%; background:#444;}
+#nav a {padding:12px 10px; margin:0; color:#fff; text-decoration:none; text-align:center;}
+#nav a.current, #nav a:hover {background:#111;}
+#nav span.right {float:right;}
+
+/* form */
+form input.text {width:95%; font-size:16px;}
+form textarea {width:95%; height:100%;}
+/* table */
+table {width:98%; text-align:right; border:rgb(128,128,128); font-size:12px; margin:5px 10px; color:#000;background:#fff;}
+table th {background-color: rgb(229, 229, 229); border:1px solid rgb(187, 187, 187); padding:3px 6px; font-weight:normal; color:#000;}
+table tr td {border: 1px solid rgb(221, 221, 221); padding:3px 6px;}
+table tr:hover {background-color: rgb(240, 240, 240);color:#000;}
+/* a */
+a.large {padding: 5px; color:#000; background:#eee; text-decoration:none; margin:5px;}
+a.large.right {float:right;}
+a.large:hover, a.large.current {background:#444; color:#fff;}
+/* messages */
+#message {margin: 5px 10px; padding: 4px; display:block;text-align:center;}
+#message.error {background:#FFEBE8;border: 1px solid #CC0000;color:#CC0000;}
+#message.success {border:solid 1px #349534; background:#C9FFCA;color:#008000;}
