@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>RGU Technology</title>
+        <title>CRM</title>
         <meta charset="utf-8">
         <link href="/styles/multiselect.css" rel="stylesheet"/>
 	<script src="multiselect.min.js"></script>
@@ -308,50 +308,84 @@
             <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
        
        </center> 
-            <span class="w3-bar-item w3-right">RGU AI-CRM</span>
+            <span class="w3-bar-item w3-right">CRM</span>
         </div>
         
         <!-- Sidebar/menu -->
         <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:248px;" id="mySidebar"><br>
             <div class="w3-container w3-row">
                 <div class="w3-col s4">
-                    <img src="/images/logo2.png" class="w3-circle w3-margin-right" style="width:65px">
+                  
                 </div>
                 
-                    <span><b><?PHP  echo $_SESSION['name'];?></b></span><br>
+                    <label><b><?PHP  echo $_SESSION['name'];?></b></label><br>
                    
                     
-                    <a href="http://www.irontin.com/#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+                   
 
-                    <a href="/home/profile.php" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>
                     
-                     
-                 <hr>
-                <span><a href="/spages/logout.php">Sign Out</a></span>
+                   
             </div>
             <hr>
             <div class="w3-bar-block">
                 <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>Close Menu</a>
-                <a href="/home/home.php" class="w3-bar-item w3-button w3-padding"><b>HOME</b></a>
-                <a href="/home/leads.php" class="w3-bar-item w3-button w3-padding"><b>VIEW LEADS</b></a>
                 <div class="w3-container w3-row">
-                <a href="/home/lead.php" class="w3-bar-item w3-button w3-padding">Create Leads</a>
-                <a href="/home/ileads.php" class="w3-bar-item w3-button w3-padding">Import Leads</a>
-                </div>
-                </div>
-                <a href="" class="w3-bar-item w3-button w3-padding"><b>AUTOMATION</b></a>
-                 <div class="w3-container w3-row">
-                <a href="/home/email.php" class="w3-bar-item w3-button w3-padding">Send Emails</a>
-                <a href="/home/camp.php" class="w3-bar-item w3-button w3-padding">Email Campaign</a>
-                <a href="/home/emailing.php" class="w3-bar-item w3-button w3-padding">Email To Groups</a>
-                </div> 
-                <a href="/home/contacts.php" class="w3-bar-item w3-button w3-padding"><b>VIEW CONTACTs</b></a>
-                <div class="w3-container w3-row">
-                <a href="/home/contact.php" class="w3-bar-item w3-button w3-padding">Create Leads</a>
-                <a href="/home/icontacts.php" class="w3-bar-item w3-button w3-padding">Import Leads</a>
-                </div>
-              <a href="/home/opportunities.php" class="w3-bar-item w3-button w3-padding"><b>Opportunities</b></a>
+                <a href="/home/home.php" class="w3-bar-item w3-button">Dashboard</a>
+                <hr>
+                <a href="#" class="w3-bar-item w3-button w3-padding">Leads</a>
+                <hr>
+                
+                <a href="#" class="w3-bar-item w3-button w3-padding">Customers</a>
+                <hr>
+                
+                <a href="#" class="w3-bar-item w3-button w3-padding">Automation</a>
                
+                <hr>
+                
+                <a href="#" class="w3-bar-item w3-button w3-padding">Reports</a>
+               
+                <hr>
+                
+                <a href="#" class="w3-bar-item w3-button w3-padding">Activities</a>
+               
+                <hr>
+                <a href="#" class="w3-bar-item w3-button w3-padding">Compensation</a>
+                
+                <hr>
+                <a href="#" class="w3-bar-item w3-button w3-padding">Conversation</a>
+               
+              
+                <hr>
+                    <a href="#" class="w3-bar-item w3-button">My Profile</a> 
+                 <hr>
+                 <!--  <a href="/home/leads.php" class="w3-bar-item w3-button w3-padding">Leads</a>
+                <hr>
+                
+                <a href="/home/leads.php" class="w3-bar-item w3-button w3-padding">Customers</a>
+                <hr>
+                
+                <a href="/home/camp.php" class="w3-bar-item w3-button w3-padding">Automation</a>
+               
+                <hr>
+                
+                <a href="/home/camp.php" class="w3-bar-item w3-button w3-padding">Reports</a>
+               
+                <hr>
+                
+                <a href="/home/camp.php" class="w3-bar-item w3-button w3-padding">Activities</a>
+               
+                <hr>
+                <a href="/home/communication.php" class="w3-bar-item w3-button w3-padding">Compensation</a>
+                
+                <hr>
+                <a href="/home/communication.php" class="w3-bar-item w3-button w3-padding">Conversation</a>
+               
+              
+                <hr>
+                    <a href="/home/profile.php" class="w3-bar-item w3-button">My Profile</a> 
+                 <hr> -->
+                <a href="/logout.php" class="w3-bar-item w3-button">Log Out</a>
+                </div>
             </div>
         </nav>
 

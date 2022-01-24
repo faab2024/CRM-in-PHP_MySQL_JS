@@ -1,13 +1,14 @@
 <?php
-if(isset($OST['signup'])) {
+if(isset($_POST['signup'])) {
     
-$databaseHost = 'localhost';
-$databaseName = 'bnsznyem_rgu';
-$databaseUsername = 'bnsznyem_abfa';
-$databasePassword = '!@#123qweasdzxc';
+  $databaseHost = 'localhost';
+  $databaseName = 'crm_steve';
+  $databaseUsername ='root';
+  $databasePassword ='root';
 
-        $name = $_POST['name'];
+  $name = $_POST['name'];
 	$username = $_POST['username'];
+  $email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$pass = $_POST['password'];
 	
@@ -17,13 +18,9 @@ $conn = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $dat
 if (!$conn) {
     die("Connection failed: ".mysqli_connect_error());
 }
-	
-
-	
-          $sql="INSERT INTO crm_user(name,username,phone,password) VALUES('$name','$username','$phone','$pass')";
+		
+$sql="INSERT INTO crm_user(name,username,email,phone,password) VALUES('$name','$username','$email','$phone','$pass')";
 			
-		
-		
 	if (mysqli_query($conn, $sql)) {
     
                 
@@ -31,7 +28,7 @@ if (!$conn) {
 		echo "<br/>";
 		//header('Location:url=/spages/login.php');
 		//header("Locaurl=login.php");
-		header("Location: url=/login.php");
+		header("Location: /login.php");
 		function sanitize_my_email($field) {
     $field = filter_var($field, FILTER_SANITIZE_EMAIL);
     if (filter_var($field, FILTER_VALIDATE_EMAIL)) {
@@ -65,7 +62,7 @@ if ($secure_check == false) {
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     echo "Not Registered, Try Again Now";
-    header('Location:url=/spages/signup.php');
+    //header('Location:url=/spages/signup.php');
 }
 
 mysqli_close($conn);
@@ -147,7 +144,7 @@ button:hover {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 30%; /* Could be more or less, depending on screen size */
 }
 
 /* Style the horizontal ruler */
@@ -187,13 +184,13 @@ hr {
 }
 </style>
 <body>
+<?php include ("header.php");?>
 
 
 
 
-
-<div id="id02" class="modal">
-  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+<!--<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>-->
   <form class="modal-content" action=""  method="POST">
     <div class="container">
       <h3>Sign Up</h3>
@@ -202,15 +199,15 @@ hr {
      
       <input type="text" placeholder=" Person Name/Company Name" name="name" required />
 
-     
-      <input name="username" type="text" value="" placeholder="Email..." required />
+      <input name="username" type="text" value="" placeholder="Username..." required />
 
-     
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input name="email" type="text" value="" placeholder="Email..." required />
+
+      <input name="phone" type="text" value="" placeholder="Mobile..." required />
+
+      <input type="password" placeholder="Password" name="password" required>
       
-       <input name="phone" type="text" value="" placeholder="Mobile..." required />
       
-        <input type="password" placeholder="Password" name="password" required>
       <div class="clearfix">
        
         <button type="submit" name="signup" class="signupbtn">Sign Up</button>

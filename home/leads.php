@@ -2,7 +2,7 @@
 
 <?php
 if(!isset($_SESSION['valid'])) {
-	header('Location: /spages/login.php');
+	header('Location: /login.php');
 }
 ?>
 
@@ -59,7 +59,8 @@ $resul = mysqli_query($mysqli, "SELECT * FROM leads WHERE client=".$_SESSION['id
          <form action="" method="post" id="searchform">
      
        <h3> Leads Management </h3>
-       
+       <a href="/home/lead.php" class="w3-bar-item w3-button w3-padding">Create Leads</a>
+                <a href="/home/ileads.php" class="w3-bar-item w3-button w3-padding">Import Leads</a>
           <input  type="text"  name="search_key"  placeholder="Search By /Name..." />
       <input type="submit" name="submit"  class="btn btn-default" value="Search"/>
        

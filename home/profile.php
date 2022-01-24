@@ -1,15 +1,14 @@
-<?php session_start(); ?>
-
-<?php
-if(!isset($_SESSION['valid'])) {
-	header('Location: /spages/login.php');
+<?php 
+session_start(); 
+if(!isset($_SESSION['id'])) {
+	header('Location: login.php');
 }
 ?>
 
 
 <?php
 // including the database connection file
-include_once("connection.php");
+include_once("config.php");
 
 if(isset($_POST['update'])){	
 	$id = $_SESSION['id'];
@@ -41,7 +40,7 @@ if(isset($_POST['update'])){
 		}		
 	} else {	
 		//updating the table
-		$result = mysqli_query($mysqli, "UPDATE crm_user SET name='$name', username='$username', 
+		$result = mysqli_query($conn, "UPDATE crm_user SET name='$name', username='$username', 
 		password='$password', email='$email', location='$location'    WHERE id='$id'");
 		
 		//redirectig to the display page. In our case, it is view.php
@@ -58,7 +57,7 @@ if(isset($_POST['update'])){
 $id = $_SESSION['id'];
 
 //selecting data associated with this particular id
-$result = mysqli_query($mysqli, "SELECT * FROM crm_user WHERE id=$id");
+$result = mysqli_query($conn, "SELECT * FROM crm_user WHERE id=$id");
 
 while($res = mysqli_fetch_array($result))
 {

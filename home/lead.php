@@ -38,7 +38,7 @@ if (mysqli_connect_errno())
 	
 	$client = $_SESSION['id'];
 //fetching data in descending order (lastest entry first)
-$result = mysqli_query($mysqli, "SELECT * FROM  led  WHERE client=".$_SESSION['id']."");
+$result = mysqli_query($mysqli, "SELECT * FROM  leads  WHERE client=".$_SESSION['id']."");
 
  while($res = mysqli_fetch_array($result)) {
   $email=$res['email'];

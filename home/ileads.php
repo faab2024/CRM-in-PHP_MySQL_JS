@@ -8,11 +8,10 @@ if(!isset($_SESSION['valid'])) {
 
 
 <?php
-$databaseHost = 'localhost';
-
-$databaseName = 'bnsznyem_rgu';
-$databaseUsername = 'bnsznyem_abfa';
-$databasePassword = '!@#123qweasdzxc';
+  $databaseHost = 'localhost';
+  $databaseName = 'crm_steve';
+  $databaseUsername ='root';
+  $databasePassword ='root';
 
 $connect = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
 

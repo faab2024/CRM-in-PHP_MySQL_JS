@@ -1,8 +1,0 @@
-[08-Nov-2019 11:02:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function default_time_zone() in /home/bnsznyem/public_html/crm/fetch/clock.php:2
-Stack trace:
-#0 {main}
-  thrown in /home/bnsznyem/public_html/crm/fetch/clock.php on line 2
-[08-Nov-2019 05:33:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function default_time_zone() in /home/bnsznyem/public_html/crm/fetch/clock.php:2
-Stack trace:
-#0 {main}
-  thrown in /home/bnsznyem/public_html/crm/fetch/clock.php on line 2

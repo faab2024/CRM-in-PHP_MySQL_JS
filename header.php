@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>RGU AI-CRM</title>
+<title>CRM</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <style>
-<?PHP include('style.php');?>
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -41,12 +41,10 @@ body {
 
 
 <div class="topnav">
-  <a href="#home">Home</a>
-  <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
-  
-  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-  <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+  <a href="/">Home</a>
+ 
+  <a href="/login.php">Login</a>
+  <a href="/register.php">Sign Up</a>
 </div>
 
 

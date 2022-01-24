@@ -10,7 +10,7 @@ if (mysqli_connect_errno())
   
 
 //fetching data in descending order (lastest entry first)
-$result = mysqli_query($mysqli, "SELECT * FROM  led WHERE client=".$_SESSION['id']." ORDER BY name ASC LIMIT 10");
+$result = mysqli_query($mysqli, "SELECT * FROM  leads WHERE client=".$_SESSION['id']." ORDER BY name ASC LIMIT 10");
 
 ?>
 
